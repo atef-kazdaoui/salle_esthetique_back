@@ -41,7 +41,7 @@ const ajouterProduitAuPanier = async (req, res) => {
     }
   } catch (error) {
     console.error("Erreur lors de l'ajout du produit au panier :", error);
-    return res.status(500).json({ message: "Une erreur s'est produite lors de l'ajout du produit au panier." });
+    return res.status(500).json({ message: "Une erreur s'est produite lors de l'ajout du produit au panier et merci." });
   }
 };
 
